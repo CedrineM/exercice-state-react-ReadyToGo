@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+header {
+  padding-left: 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+main,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.all-button-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.all-button-div > div {
+  display: flex;
+  gap: 15px;
+}
+
+.button-desactive,
+.button-active {
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.button-active {
+  background-color: rgb(118, 8, 8);
+  color: white;
+  border: none;
+}
+
+.button-active:hover {
+  background-color: rgb(215, 135, 135);
+}
+
+.button-desactive {
+  background-color: white;
+  border: solid 2px rgb(118, 8, 8);
+}
+
+.button-desactive:hover {
+  border: solid 2px rgb(215, 135, 135);
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(4, 68, 4);
+  width: 150px;
+  height: 70px;
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(118, 8, 8);
+  width: 150px;
+  height: 70px;
+}
